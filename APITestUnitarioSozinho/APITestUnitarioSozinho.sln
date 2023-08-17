@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APITestUnitarioSozinho", "APITestUnitarioSozinho\APITestUnitarioSozinho.csproj", "{AF5F9FC0-6E7A-4FB7-970F-D04D205C5F6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesterAPITestUnitarioSozinho", "TesterAPITestUnitarioSozinho\TesterAPITestUnitarioSozinho.csproj", "{CBBD2E0C-09CA-4838-846C-35B6C672DE6C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AF5F9FC0-6E7A-4FB7-970F-D04D205C5F6F} = {AF5F9FC0-6E7A-4FB7-970F-D04D205C5F6F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF5F9FC0-6E7A-4FB7-970F-D04D205C5F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF5F9FC0-6E7A-4FB7-970F-D04D205C5F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF5F9FC0-6E7A-4FB7-970F-D04D205C5F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF5F9FC0-6E7A-4FB7-970F-D04D205C5F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBBD2E0C-09CA-4838-846C-35B6C672DE6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBBD2E0C-09CA-4838-846C-35B6C672DE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBBD2E0C-09CA-4838-846C-35B6C672DE6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBBD2E0C-09CA-4838-846C-35B6C672DE6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {073298A3-D91E-42EE-832D-3601997B01CB}
+	EndGlobalSection
+EndGlobal
